@@ -1,0 +1,60 @@
+/* Color Palette
+# - color 1 422040
+# - color 2 e57a44
+# - color 3 e3d985
+# - color 4 d6dbb2
+# - color 5 bcd8c1
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #422040;
+    /*background: lightblue;*/
+    h1 {
+        font-family: "Roboto Mono", monospace;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h2 {
+        font-family: "Roboto Mono", monospace;
+        font-size: 30px;
+        font-weight: 600; 
+    }
+    h3 {
+        font-family: "Roboto Mono", monospace;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    p {
+        font-family: "Roberto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #e57a44;
+}
+
+footer {
+    background: #e3d985
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    BACKGROUND: #d6dbb2
+}
+
+
+/* Education
+------------------------------------*/
+
+.edu {
+    BACKGROUND: #bcd8c1
+}
