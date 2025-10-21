@@ -8,6 +8,13 @@
 
 /* Global styles 
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #422040;
     margin: 0;
@@ -41,10 +48,10 @@ body {
 header {
     background: #e57a44;
     .profile-img {
-        width: 300px;
+        /* width: 300px; */
         border-radius: 50%;
-        margin-right: 30px;
-        float: left;
+        /* margin-right: 30px;
+        float: left; */
     }
     h1 {
         margin: 0;
@@ -84,4 +91,17 @@ footer {
 .content-info a{
     padding: 10px;
     display: inline-block;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }
